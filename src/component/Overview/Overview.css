@@ -1,0 +1,138 @@
+
+
+.main-over{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 3.5rem;
+}
+.text-overview{
+    display: flex;
+    gap: 20px;
+}
+.text-over1{
+    background: #5fcf80;
+    color: #fff;
+    border-radius: 5px;
+    display: grid;
+    padding: 30px;
+    flex-wrap: wrap;
+    height: auto;
+    max-width: 350px;
+}
+.text-over1 h1{
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+    width: 250px;
+    font-family: "Raleway", sans-serif;
+
+}
+.text-over1 p{
+    font-size: 17.5px;
+    width: 310px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+.text-over1 button{
+    border-radius: 2.5rem;
+    padding: 9px;
+    font-size: 1rem;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    padding-left: 16px;
+    color: #fff;
+    transition: all ease-in-out 0.4s;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    margin: 0 auto;
+}
+.l-arrow{
+    width: 1rem;
+    text-align: center;
+    padding-top: 3px;
+}
+.text-over1 button:hover{
+    color: rgba(150, 232, 172, 0.888);
+    background-color: white;
+    cursor: pointer;
+}
+.over-text{
+    text-align: center;
+    background: #fff;
+    padding: 40px 30px;
+    width: 240px;
+    height: 370px;
+    margin-top: 40px;
+    border: 1px solid #eef0ef;
+    flex-wrap: wrap;
+}
+.over-text h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+    font-family: "Raleway", sans-serif;
+    padding-top: 20px;
+}
+.over-text p{
+    font-size: 16px;
+    color: #848484;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+.over-text h1{
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.React-over-icon{
+    width: 70px;
+    height: 70px;
+    font-size: 32px;
+    padding: 17px;
+    color: #5fcf80;
+    margin-bottom: 30px;
+    background: #ecf9f0;
+    border-radius: 50px;
+   align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 824px){
+    .main-over{
+        padding: 10px 20px;
+      
+    }
+    .text-overview{
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+       gap: 0px;
+       margin-top: 3rem;
+
+    }
+    .text-over1{
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
+
+    }
+    .text-over1 p{
+        font-size: 15px;
+        font-weight: 600;
+        color: #fff;
+    }
+    .over-text{
+        width: auto;
+        height: auto;
+    }
+    .over-text p{
+        font-size: 15px;
+        color: #848484;
+        font-weight: 300;
+    }
+
+
+
+
+}

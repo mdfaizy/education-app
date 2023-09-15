@@ -1,0 +1,150 @@
+.last-main{
+    padding: 60px 0 30px 0;
+    background: #f9faf9;
+    margin-top: 3rem;
+}
+.footer-top{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.a108{
+    display: flex;
+justify-content: space-between;
+}
+
+
+.mentor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    grid-template-rows: repeat(3,1fr);
+    padding: 0 120px;
+    padding-top:60px;
+    height: auto;
+    margin: 60px 0;
+background: #f9faf9;
+}
+.mentor h1{
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Raleway", sans-serif;
+}
+.a108 p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color: #777777;
+    margin-top: 0px;
+}
+.mento h1{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.75rem;
+    font-family: "Raleway", sans-serif;
+}
+.mento strong{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color: #777777;
+    margin-top: 0;
+
+}
+.usefull{
+    margin-left: 60px;
+}
+.usefull i {
+    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 2;
+    padding-right: 5px;
+    font-size: 14px;
+}
+.usefull p {
+    margin: 10px;
+}
+.usefull p:hover {
+    color: #14d77f;
+    cursor: pointer;
+}
+.service{
+ margin-right: 40px;
+}
+.service li {
+   color:#5fcf80;
+}
+.service i{
+    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 2;
+    padding-right: 5px;
+    font-size: 14px;
+}
+.service p {
+    margin: 10px;
+}
+.service p:hover {
+    color: #14d77f;
+    cursor: pointer;
+}
+.Our{
+    width: 370px;
+}
+.Our p {
+    width: 370px;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.search-container{
+    padding-top: 30px;
+}
+.Our .search-container form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    text-align: left;
+    border: 1px solid #e0e5e2;
+}
+.Our .search-container input[type=email] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+}
+.Our .search-container .from{
+    margin: 0px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+ .Our .search-container .form input[type=submit] {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px 2px 20px;
+    background: #5fcf80;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 50px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+} */
+.Our  .form input[type=submit]:hover {
+    background: #3ac162;
+  }

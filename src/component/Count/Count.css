@@ -1,0 +1,51 @@
+
+
+.details1-count{
+    background-color: #f6f7f6;
+    height: 180px;
+   text-align: center;
+}
+.details-count{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 3rem;
+    
+}
+.name h2 {
+    font-size: 48px;
+    display: block;
+    color: #5fcf80;
+    font-weight: 700;
+}
+.name p {
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #37423b;
+    text-align: center;
+    justify-content: center;
+}
+
+@media (max-width: 824px){
+ 
+    .details1-count {
+        height: auto;
+    }
+    .name p{
+        padding-left: 15px;
+
+
+    }
+    .details-count {
+        justify-content: space-around;
+        padding: 15px 10px;
+    /* align-items: center;
+     justify-content: center; */
+       
+        /* grid-template-columns: 1/2;; */
+        display: grid;
+         grid: repeat(2, 120px) / auto-flow 80px;
+    }
+}

@@ -1,0 +1,147 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.aboutimg{
+    height: 79vh;
+    background-image: url("../../assets/first.png");
+    background-repeat: no-repeat;
+    background-size:cover ;
+  background-attachment: fixed;
+   overflow-y: hidden;
+   /* flex-wrap: wrap; */
+}
+#banner-card::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 0;
+    /* background-position: fixed; */
+    top: 25px;
+    left: 0;
+    right: 0;
+    z-index: -2;
+}
+.banner-card {
+    margin-top: 53px;
+    position: relative;
+    width: 100%;
+    height: 72vh;
+    background-size: cover;
+    background-position: center;
+    z-index: 3;
+}
+.banner-text {
+    position: absolute;
+    margin: 0;
+    padding: 8px 40px;
+    top: 25%;
+    left: 5.7%;
+}
+.banner-text h1 {
+    margin: 0;
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+  .banner-text h2 {
+      color: #eee;
+      margin: 10px 0 0 0;
+      font-size: 24px;
+      font-family: "Raleway", sans-serif;
+  }
+  .started {
+    font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 35px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.started p {
+    text-align: center;
+    justify-content: center;
+}
+.banner-text h1 h2 p {
+    background-attachment: fixed;
+}
+.start p {
+    padding-top: 13px;
+}
+.started:hover {
+    background: #5fcf80;
+  border: 2px solid #5fcf80;
+}
+
+
+@media (max-width: 824px){
+    .about1{
+        height: 100vh;
+        width: 100vw;
+    }
+.aboutimg{
+    height: 100vh;
+    /* background-attachment: initial; */
+    width: auto;
+
+}
+.banner-text{
+    font-size: 20px;
+    left: -15px;
+    margin-top: 18vh;
+}
+#banner-card::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 0;
+    height: 100vh;
+    top: 25px;
+    left: 0;
+    right: 0;
+    z-index: -2;
+}
+.banner-text h1{
+    font-size: 30px;
+    padding-left: 2.5rem;
+}
+.banner-text h2{
+    font-size: 15px;
+    padding-left: 2.5rem;
+}
+.started{
+    margin-left: 1.8rem;
+}
+}
+
+
+
+@media  (min-width:43.75rem) and (max-width:1200px) {
+.aboutimg{
+    height: 100vh; 
+    background-attachment: initial;
+    width: auto;
+}
+.banner-text{
+    font-size: 20px;
+        left: -15px;
+        margin-top: 23vh;
+}
+.banner-text h1{
+    font-size: 1.87rem;
+}
+.banner-text h2{
+    font-size: 18px;
+}
+}

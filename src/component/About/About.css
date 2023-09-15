@@ -1,0 +1,76 @@
+
+
+.main-about{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.about{
+    display: flex;
+    overflow: hidden;
+    gap: 14px;
+    width: 100%;
+    padding-top: 3.5rem;
+
+}
+.text{
+    width: 100%;
+}
+.text h1{
+    font-size: 26px;
+    font-weight: 600;
+    opacity: 0.7;
+    font-family: "Raleway", sans-serif;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    color: inherit;
+}
+.text h4{
+    font-weight: 400;
+    font-size: 17px;
+    opacity: 0.7;
+    padding-top: 4px;
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-style: italic;
+}
+.text h4 .about-icon{
+    display: none;
+}
+.image-right{
+    max-width: 600px; 
+    margin: 0 auto;
+   
+}
+.image-right img{
+ width: 100%;  
+ height:auto; 
+ display:block;
+}
+.text p{
+    /* padding-bottom: 10px; */
+    font-size: 16px;
+    /* padding-top: 10px; */
+    opacity: 0.7;
+}
+.text {
+    font-size: 16px;
+    opacity: .7;
+
+}
+p .about-icon{
+ border-radius: 50%;
+ color: #5fcf80;
+ display: block;
+ border: 4px slod  #5fcf80;;
+ border-color:6px solid   #5fcf80;   
+}
+
+
+@media only screen and (max-width: 824px){
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 2rem;
+    }
+}

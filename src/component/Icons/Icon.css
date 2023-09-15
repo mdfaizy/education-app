@@ -1,0 +1,143 @@
+
+
+.over-items{
+    display: flex;
+    max-width: 1100px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.over-icon{
+    width: 23%;
+    padding: 1rem;
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+    border: 1px solid #eef0ef;
+    color: #37423b;
+    vertical-align: baseline;
+}
+.over-icon h2{
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+.text-1{
+   
+}
+.icon-1{
+    color: #ffbb2c;
+    padding-right: 5px;
+    padding-top: 10px;
+    font-size: 35px;
+    line-height: 1;
+}
+.icon-2{
+    color: #5578ff;
+    padding-right: 5px;
+    padding-top: 10px;
+    font-size: 35px;
+    line-height: 1;
+}
+.icon-3{
+    color: #e80368;
+    padding-right: 5px;
+    padding-top: 10px;
+    font-size: 35px;
+    line-height: 1;
+}
+.icon-4{
+    color: #e361ff;
+    padding-right: 5px;
+    padding-top: 10px;
+    font-size: 35px;
+    line-height: 1;
+}
+.icon-5{
+    color: #47aeff;
+    font-size: 25px;
+    line-height: 1;
+    padding-right: 5px;
+    padding-top: 10px;
+    font-size: 35px;
+    line-height: 1;
+}
+
+.icon-6{
+    color: #4233ff;
+    padding-right: 5px;
+    padding-top: 10px;
+    font-size: 35px;
+    line-height: 1;
+}
+.icon-7{
+    color: #11dbcf;
+    padding-right: 5px;
+    padding-top: 10px;
+    font-size: 2rem;
+    line-height: 1;
+}
+.icon-8{
+    color: #4233ff;
+    padding-right: 5px;
+    padding-top: 10px;
+    font-size: 35px;
+    line-height: 1;
+}
+.icon-9{
+    color: #b2904f;
+    padding-right: 5px;
+    padding-top: 10px;
+    font-size: 35px;
+    line-height: 1;
+}
+.icon-10{
+    color: #b20969;
+    padding-right: 5px;
+    padding-top: 10px;
+    font-size: 35px;
+    line-height: 1;
+}
+.icon-11{
+    color: #ff5828;
+    padding-right: 5px;
+    padding-top: 10px;
+    font-size: 35px;
+    line-height: 1;
+}
+.icon-12{
+    color: #29cc61;
+    padding-right: 5px;
+    padding-top: 10px;
+    font-size: 35px;
+    line-height: 1;
+}
+
+
+@media (max-width:870px) {
+    .main-over{
+        /* margin: auto; */
+        /* padding: 10px 20px; */
+        margin: 0;
+        padding: 0 5px;
+    }
+    .over-items{
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+       gap: 0px;
+      
+       
+    }
+    .over-icon{
+        width: 95vw;
+       transition: 0.3s;
+       border: 1px solid #eef0ef;
+       color: #37423b;
+        
+    }
+
+    
+    
+}
