@@ -28,8 +28,29 @@
     justify-content: center;
 }
 
-@media (max-width: 824px){
+@media (max-width: 660px){
  
+    .details1-count {
+        height: auto;
+    }
+    .name p{
+        padding-left: 15px;
+
+
+    }
+    .details-count {
+        justify-content: space-around;
+        padding: 15px 10px;
+    /* align-items: center;
+     justify-content: center; */
+       
+        /* grid-template-columns: 1/2;; */
+        display: grid;
+         grid: repeat(2, 120px) / auto-flow 80px;
+    }
+}
+
+@media only screen and (max-width: 900px){
     .details1-count {
         height: auto;
     }

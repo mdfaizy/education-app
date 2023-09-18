@@ -43,6 +43,7 @@ background: #f9faf9;
     margin-top: 0px;
 }
 .mento h1{
+
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-weight: 500;
@@ -80,6 +81,20 @@ background: #f9faf9;
 .service{
  margin-right: 40px;
 }
+.usefull h1{
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+}
+.service h1{
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+}
 .service li {
    color:#5fcf80;
 }
@@ -101,6 +116,13 @@ background: #f9faf9;
 .Our{
     width: 370px;
 }
+.Our h1{
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+}
 .Our p {
     width: 370px;
     font-size: 15px;
@@ -109,42 +131,313 @@ background: #f9faf9;
 }
 .search-container{
     padding-top: 30px;
+    /* margin-right: 20px; */
 }
-.Our .search-container form {
-    margin-top: 30px;
-    background: #fff;
-    padding: 6px 10px;
-    position: relative;
-    border-radius: 50px;
-    text-align: left;
-    border: 1px solid #e0e5e2;
-}
-.Our .search-container input[type=email] {
-    border: 0;
+
+
+.input{
+    height: 45px;
     padding: 4px 8px;
     width: calc(100% - 100px);
+    border: 0;
+    border-radius: 40px;
+    background: #fff;
+    border: 1px solid #e0e5e2;
+    position: relative;
+    border-radius: 50px;
 }
-.Our .search-container .from{
+
+.Our .search-container .click {
+    border: 0;
+    height: 45px;
+    width: 6rem;
+    border-radius: 40px;
+    padding: 4px 8px;
+    background: #5fcf80;
+    left: -30px;
+    position: relative;
+    color: #fff;
+}
+ .Our .search-container .from{
     margin: 0px;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
-}
- .Our .search-container .form input[type=submit] {
-    position: absolute;
-    top: -1px;
-    right: -1px;
+   
     bottom: -1px;
-    border: 0;
+    color: #fff;
     background: none;
     font-size: 16px;
     padding: 0 20px 2px 20px;
-    background: #5fcf80;
-    color: #fff;
+    height: 40px;
     transition: 0.3s;
+
+} 
+ .Our .search-container .form {
+   
+    
+   border: 2px solid red;
+   
+    background: #5fcf80;
+   
+  
     border-radius: 50px;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-} */
-.Our  .form input[type=submit]:hover {
+} 
+.Our  .form .click:hover {
     background: #3ac162;
   }
+  footer {
+    color: #37423b;
+    font-size: 14px;
+    background: #eef0ef;
+    padding: 0 110px
+}
+.footer1 {
+    flex-wrap: wrap;
+    display: flex;
+justify-content: space-between;
+padding-top: 1.5rem;
+padding-bottom: 1.5rem;
+margin-top: 2rem;
+
+}
+.footer2 {
+    color: rgb(93, 88, 88);
+}
+.footer2 b {
+    color: black;
+}
+.footer2 p {
+    padding-top: 5px;
+    font-size: 13px;
+    margin-right: 205px;
+}
+.footer2 span {
+    color: #5fcf80;
+}
+.footer2 span:hover {
+    cursor: pointer;
+}
+.footer3 ul {
+    list-style: none;
+}
+.footer3 ul li {
+    background-color: #5fcf80;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.footer3 ul li {
+    font-size: 18px;
+    display: inline-block;
+    background: #5fcf80;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+.footer3 ul li:hover{
+    background: #3ac162;
+}
+.left li i {
+    margin-left: 20px;
+}
+
+@media (max-width:660px) {
+    .section1 {
+        padding: 0 40px;
+    }
+    .footer_top{
+        width: 100%;
+        overflow-y: hidden;
+       margin-top: 40px;
+
+    }
+    .mentor {
+        padding-top: 60px;
+        width: 100%;
+        display: grid;
+        grid-auto-flow: row dense;
+        /* grid-template: 1fr /1fr 1fr; */
+    }
+    .a108{
+        width: 100%;
+        grid-template-columns: 1fr/1fr;
+        display: grid;
+
+    }
+    .Adam {
+        height: 100%;
+        margin: 0;
+        padding: 0 30px;
+        overflow-y: hidden;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .usefull {
+        margin-left: -1px;
+        margin-top: 30px;
+    }
+    .service{
+        margin-top: 30px;
+    }
+    .service p {
+        width: 100%;
+    }
+    .Our{
+        width: 100%;
+        margin-top: 30px;
+        padding: 0;
+    }
+    .Our p{
+        width: auto;
+    }
+    .a108 .Our{
+        width: 100%;
+        overflow-y: hidden;
+        text-decoration: none;
+    }
+ .Our .search-container{
+        width: 100%;
+       
+        text-decoration: none;
+        overflow-y: hidden;
+        height: auto;
+    }
+    footer{
+        margin: 0;
+        padding: 0;
+        width: 100%; 
+    } 
+    .footer2{
+width: 100%;
+text-align: center;
+line-height: 2;
+ }
+.footer2 h2{
+        padding-top: 30px;
+        font-size: 15px;
+        width: 100%;   
+     }
+     .footer2 p{
+text-align: center;
+width: 100%;
+     }
+    .footer3 {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .footer3 ul{
+    
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .section1 {
+        padding: 0 40px;
+    }
+    .footer_top{
+        width: 100%;
+        overflow-x: hidden;
+       margin-top: 40px;
+
+    }
+    .mentor {
+        padding-top: 60px;
+        width: 100%;
+        display: grid;
+        grid-auto-flow: row dense;
+        /* grid-template: 1fr /1fr 1fr; */
+    }
+    .a108{
+        width: 100%;
+        grid-template-columns: 1fr/1fr;
+        display: grid;
+
+    }
+    .Adam {
+        height: 100%;
+        margin: 0;
+        padding: 0 30px;
+        overflow-y: hidden;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .usefull {
+        margin-left: -1px;
+        margin-top: 30px;
+    }
+    .service{
+        margin-top: 30px;
+    }
+    .service p {
+        width: 100%;
+    }
+    .Our{
+        width: 100%;
+        margin-top: 30px;
+        padding: 0;
+    }
+    .Our p{
+        width: auto;
+    }
+    .a108 .Our{
+        width: 100%;
+        overflow-y: hidden;
+        text-decoration: none;
+    }
+ .Our .search-container{
+        width: 100%;
+       
+        text-decoration: none;
+        overflow-y: hidden;
+        height: auto;
+    }
+    footer{
+        margin: 0;
+        padding: 0;
+        width: 100%; 
+    } 
+    .footer2{
+width: 100%;
+text-align: center;
+line-height: 2;
+ }
+.footer2 h2{
+        padding-top: 30px;
+        font-size: 15px;
+        width: 100%;   
+     }
+     .footer2 p{
+text-align: center;
+width: 100%;
+     }
+    .footer3 {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .footer3 ul{
+    
+        text-align: center;
+    }
+
+
+}

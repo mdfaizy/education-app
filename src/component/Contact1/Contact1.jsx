@@ -1,5 +1,8 @@
 import './Contact1.css';
 import { BiChevronRight } from 'react-icons/bi';
+import {AiFillFacebook,AiFillLinkedin,AiOutlineInstagram ,AiFillSkype} from "react-icons/ai";
+import { BiLogoTwitter } from 'react-icons/bi';
+
 const Contact1 = () => {
   return (
     
@@ -63,7 +66,7 @@ const Contact1 = () => {
                                         
                                             <div className='from'>
                                             <input className='input' type="email" name="email"/>
-                                            <input className='click' type="submit" value="Subscribe"/>
+                                            <button className='click' type="submit" value="Subscribe">Subscribe</button>
                                             </div>
                                 
                                     </div>
@@ -77,6 +80,8 @@ const Contact1 = () => {
 
     
 </div>
+
+</div>
 <footer>
                         <div className="footer1">
                             <div className="footer2">
@@ -85,17 +90,15 @@ const Contact1 = () => {
                             </div>
                             <div className="footer3">
                                 <ul>
-                                    {/* <li><i class="fa-brands fa-twitter"></i></i></a></li>
-                                    <li> <i class="fa-brands fa-facebook"></i></a></li>
-                                    <li><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><i class="fa-brands fa-skype"></i></a></li>
-                                    <li><i class="fa-brands fa-line"></i></a></li>
-                                    <li class="left"><i class="fa fa-arrow-up"></i></i></a></li> */}
+                                <li><BiLogoTwitter/></li>
+                            <li><AiFillFacebook/></li>
+                            <li><AiOutlineInstagram/></li>
+                            <li><AiFillSkype/></li>
+                            <li><AiFillLinkedin/></li>
                                 </ul>
                             </div>
                         </div>
                     </footer>
-</div>
 
 </div>
  

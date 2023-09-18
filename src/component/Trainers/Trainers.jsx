@@ -1,9 +1,12 @@
-
+import Trainers1 from "../Trainer1/Trainers1";
 
 const Trainers = () => {
   return (
-    <div>Trainers</div>
-  )
-}
+    <div>
+      Trainers
+      <Trainers1 />
+    </div>
+  );
+};
 
-export default Trainers
+export default Trainers;

@@ -116,28 +116,48 @@
 }
 
 
-@media (max-width:870px) {
+@media (max-width:660px) {
     .main-over{
-        /* margin: auto; */
-        /* padding: 10px 20px; */
-        margin: 0;
-        padding: 0 5px;
+        margin: auto;
+        padding: 0;
+        padding: 0 40px;
     }
     .over-items{
         display: grid;
         grid-template-columns: minmax(0, 1fr);
-       gap: 0px;
-      
+     
+
        
     }
     .over-icon{
-        width: 95vw;
+        width: 100%;
        transition: 0.3s;
        border: 1px solid #eef0ef;
        color: #37423b;
-        
     }
 
     
     
+}
+
+@media only screen and (max-width: 900px){
+    .main-over{
+        margin: auto;
+        padding: 0;
+        padding: 0 40px;
+    }
+    .over-items{
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+     
+
+       
+    }
+    .over-icon{
+        width: 100%;
+       transition: 0.3s;
+       border: 1px solid #eef0ef;
+       color: #37423b;
+    }
+
 }

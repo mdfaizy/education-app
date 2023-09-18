@@ -15,14 +15,14 @@ const Header = () => {
           onClick={() => setClick(false)}
         >
           {/* <ul className= "nav-item"> */}
-          <li className="active">
-            <Link className="nav-link" to="/" >
+          <li>
+            <Link className="nav-link" to="/" activeClassName="active">
               Home
             </Link>
           </li>
           <li>
-            {" "}
-            <Link to="/about" className="nav-link" onClick={handleClick}>
+            {/* {" "} */}
+            <Link to="../Top/Top" className="nav-link">
               About
             </Link>
           </li>
@@ -38,7 +38,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            {" "}
+            {/* {" "} */}
             <Link className="nav-link" to="/pricing">
               Pricing
             </Link>
@@ -46,6 +46,12 @@ const Header = () => {
           <li>
             <Link className="nav-link" to="/events">
               Events
+            </Link>
+          </li>
+
+          <li>
+            <Link className="nav-link" to="/dropdown">
+             DropDown
             </Link>
           </li>
 
