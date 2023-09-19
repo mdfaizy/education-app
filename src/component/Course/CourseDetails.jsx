@@ -4,13 +4,13 @@ import courseimg2 from '../../assets/trainer-1 (1).jpg'
 import { BiUser } from 'react-icons/bi';
 import { AiOutlineHeart } from 'react-icons/ai';
 import course21 from '../../assets/course-2.jpg';
-import trainer2  from '../../assets/trainer-2 (1).jpg';
+import trainer2 from '../../assets/trainer-2 (1).jpg';
 import course3 from '../../assets/course-3.jpg';
 import trainer31 from '../../assets/trainer-1 (1).jpg';
 const CourseDetails = () => {
-  return (
-    <div>
- <div className="fee1" id="Courses">
+    return (
+        <div>
+            <div className="fee1" id="Courses">
                 <div className="dot">
                     <div className="span">
                         <h2>COURSES<span></span></h2>
@@ -39,13 +39,13 @@ const CourseDetails = () => {
                             </div>
                             <div className="like-me">
                                 <div className="user">
-                                    <img src={courseimg2} alt="" width="50px"/>
+                                    <img src={courseimg2} alt="" width="50px" />
                                     <h2>Antonio</h2>
                                 </div>
                                 <div className="flow">
-                                    <i ><BiUser/></i>
+                                    <i ><BiUser /></i>
                                     <h1>50</h1>
-                                    <i><AiOutlineHeart/></i>
+                                    <i><AiOutlineHeart /></i>
                                     <h1>65</h1>
                                 </div>
                             </div>
@@ -54,7 +54,7 @@ const CourseDetails = () => {
                     {/* <!--  --> */}
                     <div className="corses_name">
                         <div className="cource-img">
-                            <img src={course21} alt=""/>
+                            <img src={course21} alt="" />
                         </div>
                         <div className="corses_review_details">
                             <div className="corse_review">
@@ -71,13 +71,13 @@ const CourseDetails = () => {
                             <div className="line"></div>
                             <div className="like-me">
                                 <div className="user">
-                                    <img src={trainer2} alt="" width="50px"/>
+                                    <img src={trainer2} alt="" width="50px" />
                                     <h2>Lana</h2>
                                 </div>
                                 <div className="flow">
-                                    <i > <BiUser/></i>
+                                    <i > <BiUser /></i>
                                     <h1>35</h1>
-                                    <i><AiOutlineHeart/></i>
+                                    <i><AiOutlineHeart /></i>
                                     <h1>42</h1>
                                 </div>
                             </div>
@@ -85,7 +85,7 @@ const CourseDetails = () => {
                     </div>
                     <div className="corses_name">
                         <div className="cource-img">
-                            <img src={course3} alt=""/>
+                            <img src={course3} alt="" />
                         </div>
                         <div className="corses_review_details">
                             <div className="corse_review">
@@ -102,13 +102,13 @@ const CourseDetails = () => {
                             <div className="line"></div>
                             <div className="like-me">
                                 <div className="user">
-                                    <img src={trainer31} alt="" width="50px"/>
+                                    <img src={trainer31} alt="" width="50px" />
                                     <h2>Brandon</h2>
                                 </div>
                                 <div className="flow">
-                                <i > <BiUser/></i>
+                                    <i > <BiUser /></i>
                                     <h1>20</h1>
-                                    <i><AiOutlineHeart/></i>
+                                    <i><AiOutlineHeart /></i>
                                     <h1>85</h1>
                                 </div>
                             </div>
@@ -117,8 +117,8 @@ const CourseDetails = () => {
                 </div>
             </div>
 
-    </div>
-  )
+        </div>
+    )
 }
 
 export default CourseDetails

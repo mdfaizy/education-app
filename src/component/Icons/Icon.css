@@ -11,12 +11,18 @@
     width: 23%;
     padding: 1rem;
     position: relative;
+    align-items: center; 
+  justify-content: center;
     margin: 10px;
     overflow: hidden;
     transition: 0.3s;
     border: 1px solid #eef0ef;
     color: #37423b;
     vertical-align: baseline;
+    display: flex;
+
+    transition: border-color 0.3s, color 0.3s; 
+   
 }
 .over-icon h2{
     font-size: 17px;
@@ -31,20 +37,21 @@
     color: #ffbb2c;
     padding-right: 5px;
     padding-top: 10px;
-    font-size: 35px;
     line-height: 1;
+    margin-right: 8px;
+    font-size: 30px;
 }
 .icon-2{
     color: #5578ff;
     padding-right: 5px;
     padding-top: 10px;
-    font-size: 35px;
-    line-height: 1;
+    font-size: 34px;
+   
 }
 .icon-3{
     color: #e80368;
     padding-right: 5px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     font-size: 35px;
     line-height: 1;
 }
@@ -114,6 +121,10 @@
     font-size: 35px;
     line-height: 1;
 }
+.over-icon:hover {
+    border-color: #29cc61;
+    color: #29cc61;
+  }
 
 
 @media (max-width:660px) {

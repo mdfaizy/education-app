@@ -16,6 +16,7 @@ body{
     width: 100vw;
     overflow-y: hidden;
    z-index: 800;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }
 .logo{
     font-size: 1.875rem;
@@ -135,7 +136,7 @@ text-decoration: none;
     color: #5fcf80;
 }
 
-li.active{
+.nav .active{
     color: #5fcf80;
 }
  @media only screen and (max-width: 990px) {

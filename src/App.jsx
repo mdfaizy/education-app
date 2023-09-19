@@ -6,26 +6,15 @@ import Events from "./component/Events/Events";
 import Trainers from "./component/Trainers/Trainers";
 import Pricing from "./component/Pricing/Pricing";
 import Home from "./component/Home/Home";
-import Top from "./component/Top/Top";
-import Count from "./component/Count/Count";
-import Overview from "./component/Overview/Overview";
-import Icon from "./component/Icons/Icon";
-import CourseDetails from "./component/Course/CourseDetails";
-import Trainers1 from "./component/Trainer1/Trainers1";
-import Contact1 from "./component/Contact1/Contact1";
+
 import DropDown from './component/DropDown/DropDown';
+import Footer from "./component/Footer/Footer";
+import Contacts from "./component/Contacts/Contacts";
 const App = () => {
   return (
     <div>
       <Header />
-      <Top />
-      <About />
-      <Count />
-      <Overview />
-      <Icon />
-      <CourseDetails />
-      <Trainers1 />
-      <Contact1 />
+      
       <Routes>
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -35,7 +24,10 @@ const App = () => {
         <Route path="/pricing" element={<Pricing />} />
 
         <Route path="/dropdown" element={<DropDown/>}/>
+       <Route path="/contacts" element={ <Contacts/>}/>
       </Routes>
+      <Contacts/>
+      <Footer/>
     </div>
   );
 };

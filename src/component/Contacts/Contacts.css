@@ -74,10 +74,13 @@ background: #f9faf9;
 .usefull p {
     margin: 10px;
 }
-.usefull p:hover {
-    color: #14d77f;
-    cursor: pointer;
-}
+.usefull p:hover i {
+    color: #5fcf80;; 
+  }
+  
+  .usefull p:hover {
+    color: #5fcf80;; 
+  }
 .service{
  margin-right: 40px;
 }
@@ -98,6 +101,7 @@ background: #f9faf9;
 .service li {
    color:#5fcf80;
 }
+
 .service i{
     color: #777777;
     transition: 0.3s;
@@ -109,10 +113,13 @@ background: #f9faf9;
 .service p {
     margin: 10px;
 }
-.service p:hover {
-    color: #14d77f;
-    cursor: pointer;
-}
+.service p:hover i {
+    color: #5fcf80;; 
+  }
+  
+  .service p:hover {
+    color: #5fcf80;; 
+  }
 .Our{
     width: 370px;
 }
@@ -186,6 +193,7 @@ background: #f9faf9;
 .Our  .form .click:hover {
     background: #3ac162;
   }
+
  
 @media (max-width:660px) {
     .section1 {
@@ -249,7 +257,7 @@ background: #f9faf9;
         overflow-y: hidden;
         height: auto;
     }
-    footer{
+    /* footer{
         margin: 0;
         padding: 0;
         width: 100%; 
@@ -279,7 +287,7 @@ width: 100%;
     .footer3 ul{
     
         text-align: center;
-    }
+    } */
 }
 
 @media only screen and (max-width: 800px){
@@ -344,7 +352,7 @@ width: 100%;
         overflow-y: hidden;
         height: auto;
     }
-    footer{
+    /* footer{
         margin: 0;
         padding: 0;
         width: 100%; 
@@ -375,6 +383,6 @@ width: 100%;
     
         text-align: center;
     }
+*/
 
-
-}
+} 

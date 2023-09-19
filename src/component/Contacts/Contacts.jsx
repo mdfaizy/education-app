@@ -1,10 +1,10 @@
-import './Contact1.css';
 import { BiChevronRight } from 'react-icons/bi';
+import './Contacts.css'
 
-const Contact1 = () => {
+const Contacts = () => {
   return (
-    
-<div className='last-main'>
+    <div>
+     <div className='last-main'>
 <div className="footer-top">
 
     <div className="section1">
@@ -80,28 +80,13 @@ const Contact1 = () => {
 </div>
 
 </div>
-{/* <footer>
-                        <div className="footer1">
-                            <div className="footer2">
-                                <h2>© Copyright<b> Mentor.</b> All Rights Reserved</h2>
-                                <p>Designed by <span>BootstrapMade</span></p>
-                            </div>
-                            <div className="footer3">
-                                <ul>
-                                <li><BiLogoTwitter/></li>
-                            <li><AiFillFacebook/></li>
-                            <li><AiOutlineInstagram/></li>
-                            <li><AiFillSkype/></li>
-                            <li><AiFillLinkedin/></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </footer> */}
+
+                      
 
 </div>
- 
-  
+
+    </div>
   )
 }
 
-export default Contact1
+export default Contacts
