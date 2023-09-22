@@ -18,6 +18,14 @@ padding-bottom: 1.5rem;
 .footer2 {
     color: rgb(93, 88, 88);
 }
+.footer2 h2{
+    font-size: 14px;
+    color: rgb(93, 88, 88);
+}
+.footer2 h2 span{
+    font-size: 14px;
+    color: rgb(125, 120, 120); 
+}
 .footer2 b {
     color: black;
 }
@@ -62,4 +70,32 @@ padding-bottom: 1.5rem;
 }
 .left li i {
     margin-left: 20px;
+}
+
+
+@media only screen and (max-width: 660px){
+    .footer1{
+        display: grid;
+        grid-template-columns: 1fr/1fr;
+        text-align: center;
+        
+    }
+    .footer3 ul{
+        padding-top: 8px;
+    }
+    
+    }
+
+
+@media only screen and (max-width: 990px){
+.footer1{
+    display: grid;
+    grid-template-columns: 1fr/1fr;
+    text-align: center;
+    
+}
+.footer3 ul{
+    padding-top: 8px;
+}
+
 }

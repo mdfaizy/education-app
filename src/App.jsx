@@ -6,14 +6,33 @@ import Events from "./component/Events/Events";
 import Trainers from "./component/Trainers/Trainers";
 import Pricing from "./component/Pricing/Pricing";
 import Home from "./component/Home/Home";
-
 import DropDown from './component/DropDown/DropDown';
 import Footer from "./component/Footer/Footer";
 import Contacts from "./component/Contacts/Contacts";
+import { useEffect, useState } from "react";
+import Loader from "./component/Loader";
+
 const App = () => {
+  const [loader,setLoder]=useState('true')
+  // useEffect(()=>{
+  //   setLoder(false);
+  // },[])
+
+  useEffect(() => {
+    // Simulate loading for 2 seconds
+    setTimeout(() => {
+      setLoder(false); // Set loader to false when loading is done
+    }, 2000); // 2 seconds (adjust this time as needed)
+  }, []);
   return (
     <div>
-      <Header />
+
+      {
+        loader ?(
+<Loader/> ):
+(
+          <>
+<Header />
       
       <Routes>
         <Route index element={<Home />} />
@@ -22,12 +41,13 @@ const App = () => {
         <Route path="/trainers" element={<Trainers />} />
         <Route path="/events" element={<Events />} />
         <Route path="/pricing" element={<Pricing />} />
-
         <Route path="/dropdown" element={<DropDown/>}/>
-       <Route path="/contacts" element={ <Contacts/>}/>
       </Routes>
       <Contacts/>
       <Footer/>
+      </>
+        )}
+   
     </div>
   );
 };

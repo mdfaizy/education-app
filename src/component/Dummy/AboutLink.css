@@ -1,0 +1,103 @@
+
+
+.main-about{
+    max-width: 1100px;
+    margin: 0 auto;
+    /* padding-top: 120px; */
+}
+.about{
+    display: flex;
+    overflow: hidden;
+    gap: 14px;
+    width: 100%;
+    padding-top: 3.5rem;
+
+}
+.text{
+    width: 100%;
+}
+.text h1{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    color: inherit;
+}
+.text h4{
+    font-weight: 400;
+    font-size: 17px;
+    opacity: 0.7;
+    padding-top: 4px;
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-style: italic;
+}
+.text h4 .about-icon{
+    display: none;
+}
+.image-right{
+    max-width: 600px; 
+    margin: 0 auto;
+   
+}
+.image-right img{
+ width: 100%;  
+ height:auto; 
+ display:block;
+}
+.text-icon{
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    gap: 4px;
+    /* opacity: 0.7; */
+}
+.text p{
+    font-size: 16px;
+}
+.text {
+    font-size: 16px;
+    opacity: 0.7;
+
+}
+p .about-icon{
+ color: #5fcf80;
+ display: block;
+ border: 1px solid #5fcf80;
+ display: inline-flex;
+ /* align-items: center; */
+ border-radius: 50%;
+ padding: 4px;
+ margin-right: 8px; 
+ font-size: 20px;
+}
+/* About.css */
+/* .fade-enter {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 4000ms, transform 4000ms;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 4000ms;
+  }
+   */
+
+@media only screen and (max-width: 824px){
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 2rem;
+    }
+}

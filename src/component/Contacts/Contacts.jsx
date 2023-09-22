@@ -1,9 +1,11 @@
 import { BiChevronRight } from 'react-icons/bi';
 import './Contacts.css'
 
+
 const Contacts = () => {
   return (
     <div>
+      
      <div className='last-main'>
 <div className="footer-top">
 
@@ -11,7 +13,7 @@ const Contacts = () => {
         <div className="a108">
              <div className="Adam">
                                <div className='metor'>
-                               <h1>Mentor
+                               <h1 className='h1text'>Mentor
                                     </h1>
                                     <p>
                                         A108 Adam Street <br></br>

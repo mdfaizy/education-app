@@ -2,7 +2,7 @@
 
 .over-items{
     display: flex;
-    max-width: 1100px;
+    max-width: 68.75rem;
     flex-wrap: wrap;
     margin: 0 auto;
     margin-top: 2rem;
@@ -11,115 +11,75 @@
     width: 23%;
     padding: 1rem;
     position: relative;
-    align-items: center; 
-  justify-content: center;
     margin: 10px;
     overflow: hidden;
     transition: 0.3s;
     border: 1px solid #eef0ef;
     color: #37423b;
-    vertical-align: baseline;
     display: flex;
-
     transition: border-color 0.3s, color 0.3s; 
    
 }
 .over-icon h2{
-    font-size: 17px;
+    font-size: 1.06rem;
     cursor: pointer;
     font-weight: 600;
-    
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    gap: 4px;
+    align-items: center;
 }
-.text-1{
-   
-}
+
 .icon-1{
     color: #ffbb2c;
-    padding-right: 5px;
-    padding-top: 10px;
-    line-height: 1;
-    margin-right: 8px;
-    font-size: 30px;
+    font-size: 1.87rem;
 }
 .icon-2{
     color: #5578ff;
-    padding-right: 5px;
-    padding-top: 10px;
-    font-size: 34px;
+    font-size: 1.87rem;
    
 }
 .icon-3{
     color: #e80368;
-    padding-right: 5px;
-    /* padding-top: 10px; */
-    font-size: 35px;
-    line-height: 1;
+    font-size: 1.87rem;
 }
 .icon-4{
     color: #e361ff;
-    padding-right: 5px;
-    padding-top: 10px;
-    font-size: 35px;
-    line-height: 1;
+    font-size: 1.87rem;
 }
 .icon-5{
     color: #47aeff;
-    font-size: 25px;
-    line-height: 1;
-    padding-right: 5px;
-    padding-top: 10px;
-    font-size: 35px;
-    line-height: 1;
+    font-size: 1.87rem;
 }
 
 .icon-6{
     color: #4233ff;
-    padding-right: 5px;
-    padding-top: 10px;
-    font-size: 35px;
-    line-height: 1;
+    font-size: 1.87rem;
 }
 .icon-7{
     color: #11dbcf;
-    padding-right: 5px;
-    padding-top: 10px;
-    font-size: 2rem;
-    line-height: 1;
+    font-size: 1.87rem;
 }
 .icon-8{
     color: #4233ff;
-    padding-right: 5px;
-    padding-top: 10px;
-    font-size: 35px;
-    line-height: 1;
+    font-size: 1.87rem;
+
 }
 .icon-9{
     color: #b2904f;
-    padding-right: 5px;
-    padding-top: 10px;
-    font-size: 35px;
-    line-height: 1;
+    font-size: 1.87rem;
 }
 .icon-10{
     color: #b20969;
-    padding-right: 5px;
-    padding-top: 10px;
-    font-size: 35px;
-    line-height: 1;
-}
+    font-size: 1.87rem;
+ }
 .icon-11{
     color: #ff5828;
-    padding-right: 5px;
-    padding-top: 10px;
-    font-size: 35px;
-    line-height: 1;
+    font-size: 1.87rem;
 }
 .icon-12{
     color: #29cc61;
-    padding-right: 5px;
-    padding-top: 10px;
-    font-size: 35px;
-    line-height: 1;
+    font-size: 1.87rem;
 }
 .over-icon:hover {
     border-color: #29cc61;
@@ -169,6 +129,12 @@
        transition: 0.3s;
        border: 1px solid #eef0ef;
        color: #37423b;
+       justify-content: flex-start;
     }
+.over-icon h2{
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    gap: 4px;
+}
 
 }

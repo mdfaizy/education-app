@@ -2,10 +2,13 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-
+import { AiOutlineDown } from "react-icons/ai";
 const Header = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+
+
+
   return (
     <div className="navbar">
       <div className="nav">
@@ -21,8 +24,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            {/* {" "} */}
-            <Link to="../Top/Top" className="nav-link">
+            <Link to="/about" className="nav-link">
               About
             </Link>
           </li>
@@ -49,21 +51,34 @@ const Header = () => {
             </Link>
           </li>
 
-          <li>
+          <li className="drop12">
             <Link className="nav-link" to="/dropdown">
-             DropDown
-            </Link>
+             DropDown < AiOutlineDown  className="dropdownarrow" /> 
+           </Link>
+           {/* <div className="dropdown-content">
+          <ul>
+            <li><a href="#">Link 1</a></li>
+       <li>  <a href="#">Link 2</a></li>
+       <li> <a href="#">Link 3</a>
+       <ul className="secnddrop">
+       <li>  <a href="#">Link 2</a></li>
+       <li> <a href="#">Link 3</a></li>
+       </ul>
+       </li>
+       <li>  <a href="#">Link 2</a></li>
+       <li> <a href="#">Link 3</a></li>
+        </ul>
+        </div> */}
           </li>
 
           <li>
-            <Link className="nav-link" to="/contact">
+            <Link className="nav-link" to="/contact1">
               Contact
             </Link>
           </li>
         </ul>
         <button className="get">
           <li>
-            {" "}
             <Link className="nav-get" to="/courses">
               Get Started
             </Link>

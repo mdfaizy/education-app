@@ -1,102 +1,25 @@
+// import Contacts from '../Contacts/Contacts';
 import './Contact1.css';
-import { BiChevronRight } from 'react-icons/bi';
+// import { BiChevronRight } from 'react-icons/bi';
 
 const Contact1 = () => {
   return (
-    
-<div className='last-main'>
-<div className="footer-top">
-
-    <div className="section1">
-        <div className="a108">
-             <div className="Adam">
-                               <div className='metor'>
-                               <h1>Mentor
-                                    </h1>
-                                    <p>
-                                        A108 Adam Street <br></br>
-                                        New York,  NY 535022<br></br>
-                                        United States <br></br>
-                                        <strong>Phone:</strong> +1 5589 55488 55<br></br>
-                                        <strong>Email:</strong> gmfaizy2002@gmail.com<br></br>
-                                    </p>
-                            </div>
-                                </div> 
-
-                            <div className="Adam">
-                                <div className="usefull">
-                                    <h1>Useful Links
-                                    </h1>
-                                 <p><i><BiChevronRight/></i>Home</p>
-                                    <p><i ><BiChevronRight/></i>
-                                        About us</p>
-                                    <p><i><BiChevronRight/></i>
-                                        Services</p>
-                                    <p><i><BiChevronRight/></i>
-                                        Terms of service</p>
-                                    <p><i><BiChevronRight/></i>Privacy policy</p> 
-                                </div>
-                            </div>
-
-                            <div className="Adam">
-                                <div className="service">
-                                    <h1>Our Services
-                                    </h1>
-                                    <p><i ><BiChevronRight/></i>
-                                        Web Design</p>
-                                    <p><i  ><BiChevronRight/></i>
-                                        Web Development</p>
-                                    <p><i  ><BiChevronRight/></i>
-                                        Product Management</p>
-                                    <p><i  ><BiChevronRight/></i>
-                                        Marketing</p>
-                                    <p><i ><BiChevronRight/></i>
-                                        Graphic Design</p>
-                                </div>
-                            </div>
-                            <div className="Adam">
-                                <div className="Our">
-                                    <h1>Join Our Newsletter
-                                    </h1>
-                                    <p>
-                                        Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                                    <div className="search-container">
-                                        
-                                            <div className='from'>
-                                            <input className='input' type="email" name="email"/>
-                                            <button className='click' type="submit" value="Subscribe">Subscribe</button>
-                                            </div>
-                                
-                                    </div>
-                                </div>
-
-
-
+    <div className='faizy'>
+<div id="contact">
+        <div className="contact">
+            <h2>Contact Us</h2>
+            <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit
+                quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium.</p>
         </div>
-
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d235399.8164090638!2d88.2826493!3d22.797938!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1686505099956!5m2!1sen!2sin"
+            allowfullscreen="" loading="lazy"
+           ></iframe>
     </div>
 
-    
-</div>
 
-</div>
-{/* <footer>
-                        <div className="footer1">
-                            <div className="footer2">
-                                <h2>© Copyright<b> Mentor.</b> All Rights Reserved</h2>
-                                <p>Designed by <span>BootstrapMade</span></p>
-                            </div>
-                            <div className="footer3">
-                                <ul>
-                                <li><BiLogoTwitter/></li>
-                            <li><AiFillFacebook/></li>
-                            <li><AiOutlineInstagram/></li>
-                            <li><AiFillSkype/></li>
-                            <li><AiFillLinkedin/></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </footer> */}
+
+
 
 </div>
  
