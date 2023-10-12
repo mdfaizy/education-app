@@ -11,7 +11,7 @@ const About = () => {
 <Count/>
 
 <div className="testimonial">
-        <div>
+        <div className="testimonial-heading">
             <p>TESTIMONIALS</p>
             <h2>WHAT ARE THEY SAYING</h2>
         </div>

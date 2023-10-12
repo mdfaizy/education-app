@@ -6,6 +6,9 @@
     padding: 60px 110px;
     overflow: hidden;
 }
+.testimonial-heading{
+    /* width: 100vw; */
+}
 .testimonial1 {
     display: flex;
     gap: 40px;

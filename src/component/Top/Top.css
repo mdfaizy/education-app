@@ -3,14 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+.about1{
+    height: 100%;
+}
 .aboutimg{
-    height: 67vh;
+    height: 77vh;
     background-image: url("../../assets/first.png");
     background-repeat: no-repeat;
-    background-size:cover ;
+    background-size:cover;
   background-attachment: fixed;
-   overflow-y: hidden;
-   /* flex-wrap: wrap; */
+   flex-wrap: wrap;
 }
 #banner-card::before {
     content: "";
@@ -18,14 +20,14 @@
     position: absolute;
     bottom: 0;
     height: 100%;
-    /* background-position: fixed; */
-    top: -54px;
+    background-position: fixed;
+   top: -9rem;
     left: 0;
     right: 0;
     z-index: -2;
 }
 .banner-card {
-    margin-top: -5.5rem;
+    /* margin-top: -5.5rem; */
     position: relative;
     width: 100%;
     height: 100vh;
@@ -91,10 +93,9 @@
     }
 .aboutimg{
     height: 100vh;
-    background-attachment: initial;
-    width: auto;
-   /* overflow-y: auto; */
-
+    /* background-attachment: initial; */
+    width: 100%;
+  
 }
 .banner-text{
     font-size: 20px;
@@ -107,44 +108,61 @@
     position: absolute;
     bottom: 0;
     height: 100vh;
-    top: 100px;
+    top: 130px;
     left: 0;
     right: 0;
     z-index: -2;
 }
 .banner-text h1{
     font-size: 30px;
-    padding-left: 2.5rem;
+    padding-left: 2rem;
 }
 .banner-text h2{
     font-size: 15px;
-    padding-left: 2.5rem;
+    /* padding-left: 2.5rem; */
 }
 .started{
-    margin-left: 1.8rem;
+    /* margin-left: 1.8rem; */
 }
 }
-
-
-
-@media  (min-width:43.75rem) and (max-width:1200px) {
+/* (min-width:43.75rem) and */
+@media   (max-width:1200px) {
 .aboutimg{
     height: 100vh; 
     background-attachment: initial;
-    width: auto;
+    width: 100%;
+    overflow-y: hidden;
 }
+#banner-card::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 0;
+    height: 100vh;
+    top: -1vh;
+    left: 0;
+    right: 0;
+    z-index: -2;
+}
+
 .banner-text{
     font-size: 20px;
-        left: -15px;
-        margin-top: 16vh;
+    left: -15px;
+    margin-top: 16vh;
 }
-#banner-card::before{
+/* #banner-card::before{
     top: 100px;
-}
+} */
 .banner-text h1{
     font-size: 1.87rem;
+    width: 100vw;
+    padding-left: 10px;
 }
 .banner-text h2{
     font-size: 18px;
+    line-height: 24px;
+    color: #eee;
+    padding-left: 1.1rem;
+    width: 100vw;
 }
 }

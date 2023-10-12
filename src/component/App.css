@@ -1,3 +1,7 @@
+.app.hole{
+  overflow-x: hidden;
+}
+
 .lds-dual-ring {
     display: inline-block;
     width: 80px;
