@@ -11,6 +11,7 @@ import Footer from "./component/Footer/Footer";
 import Contacts from "./component/Contacts/Contacts";
 import { useEffect, useState } from "react";
 import Loader from "./component/Loader";
+import Contact1 from "./component/Contact1/Contact1";
 
 const App = () => {
   const [loader,setLoder]=useState('true')
@@ -42,6 +43,7 @@ const App = () => {
         <Route path="/events" element={<Events />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/dropdown" element={<DropDown/>}/>
+        <Route path="/contact1" element={<Contact1/>}/>
       </Routes>
       <Contacts/>
       <Footer/>

@@ -1,13 +1,11 @@
-
-
-.over-items{
+.over-items {
     display: flex;
     max-width: 68.75rem;
     flex-wrap: wrap;
     margin: 0 auto;
     margin-top: 2rem;
 }
-.over-icon{
+.over-icon {
     width: 23%;
     padding: 1rem;
     position: relative;
@@ -17,124 +15,109 @@
     border: 1px solid #eef0ef;
     color: #37423b;
     display: flex;
-    transition: border-color 0.3s, color 0.3s; 
-   
+    transition: border-color 0.3s, color 0.3s;
 }
-.over-icon h2{
+.over-icon h2 {
     font-size: 1.06rem;
     cursor: pointer;
     font-weight: 600;
     display: grid;
-    grid-template-columns: auto 1fr; 
+    grid-template-columns: auto 1fr;
     gap: 4px;
     align-items: center;
 }
-
-.icon-1{
+.icon-1 {
     color: #ffbb2c;
     font-size: 1.87rem;
 }
-.icon-2{
+.icon-2 {
     color: #5578ff;
     font-size: 1.87rem;
-   
 }
-.icon-3{
+.icon-3 {
     color: #e80368;
     font-size: 1.87rem;
 }
-.icon-4{
+.icon-4 {
     color: #e361ff;
     font-size: 1.87rem;
 }
-.icon-5{
+.icon-5 {
     color: #47aeff;
     font-size: 1.87rem;
 }
-
-.icon-6{
+.icon-6 {
     color: #4233ff;
     font-size: 1.87rem;
 }
-.icon-7{
+.icon-7 {
     color: #11dbcf;
     font-size: 1.87rem;
 }
-.icon-8{
+.icon-8 {
     color: #4233ff;
     font-size: 1.87rem;
-
 }
-.icon-9{
+.icon-9 {
     color: #b2904f;
     font-size: 1.87rem;
 }
-.icon-10{
+.icon-10 {
     color: #b20969;
     font-size: 1.87rem;
- }
-.icon-11{
+}
+.icon-11 {
     color: #ff5828;
     font-size: 1.87rem;
 }
-.icon-12{
+.icon-12 {
     color: #29cc61;
     font-size: 1.87rem;
 }
 .over-icon:hover {
     border-color: #29cc61;
     color: #29cc61;
-  }
-
-
+}
 @media (max-width:660px) {
-    .main-over{
+    .main-over {
         margin: auto;
         padding: 0;
         padding: 0 40px;
     }
-    .over-items{
+    .over-items {
         display: grid;
         grid-template-columns: minmax(0, 1fr);
-     
-
-       
     }
-    .over-icon{
+
+    .over-icon {
         width: 100%;
-       transition: 0.3s;
-       border: 1px solid #eef0ef;
-       color: #37423b;
+        transition: 0.3s;
+        border: 1px solid #eef0ef;
+        color: #37423b;
     }
-
-    
-    
 }
 
-@media only screen and (max-width: 900px){
-    .main-over{
+@media only screen and (max-width: 900px) {
+    .main-over {
         margin: auto;
         padding: 0;
         padding: 0 40px;
     }
-    .over-items{
+
+    .over-items {
         display: grid;
         grid-template-columns: minmax(0, 1fr);
-     
-
-       
     }
-    .over-icon{
+    .over-icon {
         width: 100%;
-       transition: 0.3s;
-       border: 1px solid #eef0ef;
-       color: #37423b;
-       justify-content: flex-start;
+        transition: 0.3s;
+        border: 1px solid #eef0ef;
+        color: #37423b;
+        justify-content: flex-start;
     }
-.over-icon h2{
-    display: grid;
-    grid-template-columns: auto 1fr; 
-    gap: 4px;
-}
-
+    .over-icon h2 {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 4px;
+    }
 }

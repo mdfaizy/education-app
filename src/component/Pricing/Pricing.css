@@ -1,36 +1,7 @@
-
-
-
-#pricing{
-    /* padding-top: 120px; */
-}
-.pricing{
-    background-color: #5fcf80;
-    height: 150px;
-    /* padding-top: 120px; */
-}
-.pricing h2{
+.row_4 {
     max-width: 1100px;
     margin: 0 auto;
-    text-align: center;
-    padding-top: 120px;
-    font-family: "Raleway", sans-serif;
-    font-size: 32px;
-    font-weight: 500;
-   color: white;
-}
-.pricing p{
-    padding: 0 120px;
-    text-align: center;
-    padding-top: 10px;
-    color: white;
-    font-size: 16px;
-    margin-bottom: 0;
-}
-.row_4{
-  max-width: 1100px;
-  margin: 0 auto;
-padding-top: 120px;
+    padding-top: 50px;
     display: flex;
     justify-content: space-evenly;
     background: #fff;
@@ -40,11 +11,12 @@ padding-top: 120px;
     overflow: hidden;
     column-gap: 1.56rem;
 }
-#row_4{
-    row-gap: 10px;
 
+#row_4 {
+    row-gap: 10px;
 }
-.free{
+
+.free {
     height: auto;
     padding: 20px;
     background: #fff;
@@ -55,9 +27,9 @@ padding-top: 120px;
     overflow: hidden;
     height: 415px;
     width: calc(100% - 20px);
-
 }
-.free1{
+
+.free1 {
     margin: -20px -20px 20px -20px;
     padding: 20px 15px;
     font-size: 16px;
@@ -65,17 +37,20 @@ padding-top: 120px;
     color: #777777;
     background: #f8f8f8;
 }
-#free1{
+
+#free1 {
     color: #fff;
     font-size: 20px;
-  background-color: #5fcf80;
+    background-color: #5fcf80;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     margin-bottom: 20px;
 }
-.free1 h4{
+
+.free1 h4 {
     font-family: "Raleway", sans-serif;
 }
+
 #row_4 .advanced {
     width: 200px;
     position: absolute;
@@ -88,14 +63,16 @@ padding-top: 120px;
     background: #5fcf80;
     color: #fff;
 }
-.dolar h3{
+
+.dolar h3 {
     font-size: 36px;
     color: #5fcf80;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     margin-bottom: 20px;
 }
-.dolar h3 sup{
+
+.dolar h3 sup {
     font-size: 20px;
     top: -15px;
     left: -3px;
@@ -103,12 +80,14 @@ padding-top: 120px;
     line-height: 0;
     vertical-align: baseline;
 }
-.dolar span{
+
+.dolar span {
     color: #bababa;
     font-size: 16px;
     font-weight: 300;
 }
-.dolar ul{
+
+.dolar ul {
     padding: 0;
     list-style: none;
     color: #444444;
@@ -117,23 +96,25 @@ padding-top: 120px;
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 1rem;
-
 }
-.dolar ul li{
+
+.dolar ul li {
     padding-bottom: 16px;
 }
-.dolar  .na{
+
+.dolar .na {
     color: #ccc;
-  text-decoration: line-through;
+    text-decoration: line-through;
 }
- .free_butt{  
-   margin: 15px -20px -20px -20px;
-  
+
+.free_butt {
+    margin: 15px -20px -20px -20px;
     padding: 13px 15px;
     background: #f8f8f8;
     text-align: center;
 }
-.free_butt a{
+
+.free_butt a {
     background: #5fcf80;
     display: inline-block;
     padding: 10px 35px;
@@ -144,13 +125,11 @@ padding-top: 120px;
     font-weight: 600;
     transition: 0.3s;
 }
+
 .free_butt a:hover {
     background: #3ac162;
     cursor: pointer;
 }
-
-
-
 
 @media only screen and (max-width: 660px) {
     .row_4 {
@@ -159,12 +138,15 @@ padding-top: 120px;
         /* display: grid; */
         /* grid-template-columns: 1fr/1fr; */
     }
+
     .free {
         margin: 20px 0;
     }
+
     .free1 h4 {
         font-family: "Raleway", sans-serif;
     }
+
     #row_4 .advanced {
         width: 200px;
         position: absolute;
@@ -177,6 +159,7 @@ padding-top: 120px;
         background: #5fcf80;
         color: #fff;
     }
+
     .free_butt {
         margin: -20px -20px 20px -20px;
         padding: 20px 15px;
@@ -185,6 +168,7 @@ padding-top: 120px;
         color: #777777;
         background: #f8f8f8;
     }
+
     .free_butt a {
         background: #5fcf80;
         display: inline-block;
@@ -196,27 +180,27 @@ padding-top: 120px;
         font-weight: 600;
         transition: 0.3s;
     }
+
     .free_butt a:hover {
         background: #3ac162;
         cursor: pointer;
     }
-    
 }
-
 
 @media only screen and (max-width: 990px) {
     .row_4 {
         padding: 0 10px;
         flex-direction: column;
-      
     }
+
     .free {
         margin: 20px 0;
-        
     }
+
     .free1 h4 {
         font-family: "Raleway", sans-serif;
     }
+
     #row_4 .advanced {
         width: 200px;
         position: absolute;
@@ -229,6 +213,7 @@ padding-top: 120px;
         background: #5fcf80;
         color: #fff;
     }
+
     .free_butt {
         margin: -20px -20px 20px -20px;
         padding: 20px 15px;
@@ -237,6 +222,7 @@ padding-top: 120px;
         color: #777777;
         background: #f8f8f8;
     }
+
     .free_butt a {
         background: #5fcf80;
         display: inline-block;
@@ -248,9 +234,9 @@ padding-top: 120px;
         font-weight: 600;
         transition: 0.3s;
     }
+
     .free_butt a:hover {
         background: #3ac162;
         cursor: pointer;
     }
-    
 }

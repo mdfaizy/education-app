@@ -1,17 +1,13 @@
-.centerloader{
-  justify-content: center;
- align-items: center;
- 
-}
+/* 
 
 .lds-dual-ring {
-    width: 80px;
-    height: 80px;
+    width: 180px;
+    height: 180px;
   
   }
   .lds-dual-ring:after {
     content: " ";
-    /* display: block; */
+    display: block;
     width: 64px;
     height: 64px;
     border-radius: 50%;
@@ -26,5 +22,25 @@
     100% {
       transform: rotate(360deg);
     }
-  }
+  } */
   
+
+   /* .loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #e20909;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    }  */

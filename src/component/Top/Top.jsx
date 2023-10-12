@@ -1,4 +1,3 @@
-
 import "./Top.css";
 const Top = () => {
   return (
@@ -14,13 +13,10 @@ const Top = () => {
                         <p className="started">Get Started</p>
                     </div>
                 </div>
-            </div>
-                
+            </div>    
         </div>
-        
             </div>
     </div>
   )
 }
-
 export default Top

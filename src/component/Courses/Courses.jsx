@@ -9,9 +9,9 @@ import course3 from '../../assets/course-3.jpg';
 import trainer31 from '../../assets/trainer-1 (1).jpg';
 import './Courses.css'
 const Courses = () => {
-  return (
-    <div>
-   {/* <div className="events-top-text">
+    return (
+        <div>
+            {/* <div className="events-top-text">
      <h2>Courses</h2>
       <p>
         Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia
@@ -19,7 +19,7 @@ const Courses = () => {
         aperiam consequatur laboriosam nemo harum praesentium.
       </p>
      </div> */}
-<div className="fee1" id="Courses">
+            <div className="fee1" id="Courses">
                 <div className="dot">
                     <div className="span">
                         <h2>COURSES<span></span></h2>
@@ -125,8 +125,8 @@ const Courses = () => {
                     </div>
                 </div>
             </div>
-    </div>
-  )
+        </div>
+    )
 }
 
 export default Courses

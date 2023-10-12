@@ -1,11 +1,12 @@
-import '../app.css'
+import "../app.css";
 
 const Loader = () => {
   return (
-    <div className='centerloader'>
+    <div>
       <div className="lds-dual-ring"></div>
+      {/* <div className="loader"></div> */}
     </div>
-  )
-}
+  );
+};
 
-export default Loader
+export default Loader;

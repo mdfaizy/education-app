@@ -1,4 +1,3 @@
-// import About from "../About/About";
 import Top from "../Top/Top";
 import Count from "../Count/Count";
 import Overview from "../Overview/Overview";
@@ -19,9 +18,7 @@ const Home = () => {
       <Courses />
       <Trainers />
       <DropDown/>
-  
     </div>
   );
 };
-
 export default Home;
