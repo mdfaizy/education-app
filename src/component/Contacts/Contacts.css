@@ -213,7 +213,6 @@
         left: 0;
         padding: 0;
     }
-
     .mentor {
         padding-top: 60px;
         width: 100%;
@@ -221,14 +220,12 @@
         grid-auto-flow: row dense;
         grid-template: 1fr /1fr 1fr;
     }
-
     .a108 {
         width: 100%;
         grid-template-columns: 1fr/1fr;
         display: grid;
 
     }
-
     .Adam {
         height: 100%;
         margin: 0;
@@ -238,44 +235,46 @@
         align-items: center;
         justify-content: center;
     }
-
     .usefull {
         margin-left: -1px;
         margin-top: 30px;
     }
-
     .service {
         margin-top: 30px;
     }
-
     .service p {
         width: 100%;
     }
-
     .Our {
         width: 100%;
         margin-top: 30px;
         padding: 0;
+        overflow-x: hidden;
     }
-
     .Our p {
-        width: 300px;
+        width: 100vw;
         flex-wrap: wrap;
     }
-
     .a108 .Our {
         width: 100%;
         overflow-y: hidden;
         text-decoration: none;
     }
-
     .Our .search-container {
         width: 100vw;
         display: block;
         text-decoration: none;
-        overflow-y: hidden;
+        overflow-x: hidden;
         height: auto;
         z-index: 500;
+    }
+    .search-container .input{
+        position: relative;
+    }
+    .search-container .click{
+        position: absolute;
+        margin-left: -30px;
+        width: 100%;
     }
     .Our .search-container .from {
         margin: 0px;
@@ -287,13 +286,11 @@
         background: none;
         font-size: 16px;
         /* padding: 0 20px 2px 20px; */
-       margin-top: -85px;
+       margin-top: -35px;
         transition: 0.3s;
-        width: 100%;
+        width: 90vw;
         overflow-x: hidden;
-    
-    }
-    
+    }   
 }
 
 @media only screen and (max-width: 800px) {
@@ -304,9 +301,7 @@
         width: 100%;
         overflow-x: hidden;
         margin-top: 40px;
-
     }
-
     .mentor {
         padding-top: 60px;
         width: 100%;
@@ -314,14 +309,11 @@
         grid-auto-flow: row dense;
         /* grid-template: 1fr /1fr 1fr; */
     }
-
     .a108 {
         width: 100%;
         grid-template-columns: 1fr/1fr;
         display: grid;
-
     }
-
     .Adam {
         height: 100%;
         margin: 0;
@@ -360,10 +352,17 @@
         overflow-y: hidden;
         text-decoration: none;
     }
-
+    .search-container .input{
+        position: relative;
+    }
+    .search-container .click{
+        position: absolute;
+        margin-left: -30px;
+        width: 100%;
+    }
     .Our .search-container {
         width: 100%;
-flex-wrap: wrap;
+        flex-wrap: wrap;
         text-decoration: none;
         overflow-y: hidden;
         height: auto;
