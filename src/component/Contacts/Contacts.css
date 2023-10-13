@@ -198,9 +198,9 @@
 .Our .form .click:hover {
     background: #3ac162;
 }
-@media (max-width:660px) {
+@media (max-width:990px) {
     .section1 {
-        padding: 0 0px;
+        padding: 0 30px;
         margin-left: -30px;
         width: 100vw;
         overflow-x:hidden ;

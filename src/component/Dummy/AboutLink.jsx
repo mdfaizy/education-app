@@ -4,7 +4,7 @@ import { HiMiniCheck } from "react-icons/hi2";
 
 const AboutLink = () => {
   return (
-    <div>
+    <div className="about-main-section">
        <div className="main-about">
       <div className="about">
         <div className="text">

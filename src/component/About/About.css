@@ -201,7 +201,7 @@ p .about-icon{
     .about{
         display: flex;
         flex-direction: column-reverse;
-        padding: 2rem;
+        padding:  2rem;
     }
     .container-freelancer{
 display: grid;
