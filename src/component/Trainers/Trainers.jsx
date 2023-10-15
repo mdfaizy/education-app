@@ -10,7 +10,6 @@ const Trainers = () => {
     <>
    
     <div className='trainers'>
-      
             <div className="profile" id="Trainers">
                 <div className="profile1">
                     <div>

@@ -1,70 +1,42 @@
-
-
-.details1-count{
-    background-color: #f6f7f6;
-    height: 180px;
-   text-align: center;
-   margin-top: 40px;
+.details1-count {
+  background-color: #f6f7f6;
+  height: 11.25rem;
+  margin-top: 2.5rem;
 }
-.details-count{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-top: 3rem;
-    
+.details-count {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 3rem;
 }
 .name h2 {
-    font-size: 48px;
-    display: block;
-    color: #5fcf80;
-    font-weight: 700;
+  font-size: 3rem;
+  display: block;
+  color: #5fcf80;
+  font-weight: 700;
 }
 .name p {
-    display: flex;
-    font-family: "Raleway", sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    color: #37423b;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #37423b;
+}
+@media only screen and (max-width: 700px) {
+  .details1-count {
+    height: auto;
+  }
+  .name p {
+    padding-left: 15px;
+  }
+  .details-count {
+    justify-content: space-around;
     text-align: center;
-    justify-content: center;
-}
-
-@media (max-width: 660px){
- 
-    .details1-count {
-        height: auto;
-    }
-    .name p{
-        padding-left: 15px;
-
-
-    }
-    .details-count {
-        justify-content: space-around;
-        padding: 15px 10px;
-     grid-template-columns: 1/2;
-        display: grid;
-         grid: repeat(2, 120px) / auto-flow 80px;
-    }
-}
-
-@media only screen and (max-width: 900px){
-    .details1-count {
-        height: auto;
-    }
-    .name p{
-        padding-left: 15px;
-
-
-    }
-    .details-count {
-        justify-content: space-around;
-        padding: 15px 10px;
-    /* align-items: center;
-     justify-content: center; */
-       
-        /* grid-template-columns: 1/2;; */
-        display: grid;
-         grid: repeat(2, 120px) / auto-flow 80px;
-    }
+     display: flex;
+    display: grid;
+    grid: repeat(2, 120px) / auto-flow 80px;
+  }
 }

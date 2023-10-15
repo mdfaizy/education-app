@@ -1,66 +1,65 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.about1{
-    height: 100%;
+.about1 {
+  height: 100%;
 }
-.aboutimg{
-    height: 77vh;
-    background-image: url("../../assets/first.png");
-    background-repeat: no-repeat;
-    background-size:cover;
+.aboutimg {
+  height: 77vh;
+  background-image: url("../../assets/first.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
-   flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 #banner-card::before {
-    content: "";
-    background: rgba(0, 0, 0, 0.4);
-    position: absolute;
-    bottom: 0;
-    height: 100%;
-    background-position: fixed;
-   top: -9rem;
-    left: 0;
-    right: 0;
-    z-index: -2;
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  top: -9rem;
+  left: 0;
+  right: 0;
+  z-index: -2;
 }
 .banner-card {
-    /* margin-top: -5.5rem; */
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    z-index: 3;
+  margin-top: 0;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  z-index: 3;
 }
 .banner-text {
-    position: absolute;
-    margin: 0;
-    padding: 8px 40px;
-    top: 25%;
-    left: 5.7%;
+  position: absolute;
+  margin: 0;
+  padding: 0.5rem 2.5rem;
+  top: 25%;
+  left: 5.7%;
 }
 .banner-text h1 {
-    margin: 0;
-    font-size: 48px;
-    line-height: 1;
-    font-weight: 700;
-    line-height: 56px;
-    color: #fff;
-    font-family: "Poppins", sans-serif;
-  }
-  .banner-text h2 {
-      color: #eee;
-      margin: 10px 0 0 0;
-      font-size: 24px;
-      font-family: "Raleway", sans-serif;
-  }
-  .started {
-    font-family: "Raleway", sans-serif;
+  margin: 0;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 700;
+  line-height: 3.5rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.banner-text h2 {
+  color: #eee;
+  margin: 10px 0 0 0;
+  font: size 1.5rem;
+  font-family: "Raleway", sans-serif;
+}
+.started {
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 0.9rem;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 35px;
@@ -71,38 +70,36 @@
   color: #fff;
 }
 .started p {
-    text-align: center;
-    justify-content: center;
+  text-align: center;
+  justify-content: center;
 }
 .banner-text h1 h2 p {
-    background-attachment: fixed;
+  background-attachment: fixed;
 }
 .start p {
-    padding-top: 13px;
+  padding-top: 13px;
 }
 .started:hover {
-    background: #5fcf80;
+  background: #5fcf80;
   border: 2px solid #5fcf80;
 }
 
-
-@media (max-width: 824px){
-    .about1{
-        height: 100vh;
-        width: 100vw;
-    }
-.aboutimg{
+@media (max-width: 650px) {
+  .about1 {
+    /* height: 100vh;
+    width: 100vw; */
+  }
+  .aboutimg {
     height: 100vh;
     /* background-attachment: initial; */
     width: 100%;
-  
-}
-.banner-text{
-    font-size: 20px;
+  }
+  .banner-text {
+    font-size: 1.25rem;
     left: -15px;
     margin-top: 18vh;
-}
-#banner-card::before {
+  }
+  #banner-card::before {
     content: "";
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
@@ -112,28 +109,28 @@
     left: 0;
     right: 0;
     z-index: -2;
-}
-.banner-text h1{
-    font-size: 30px;
+  }
+  .banner-text h1 {
+    font-size: 1.87rem;
     padding-left: 2rem;
-}
-.banner-text h2{
-    font-size: 15px;
+  }
+  .banner-text h2 {
+    font-size: 0.9rem;
     /* padding-left: 2.5rem; */
-}
-.started{
+  }
+  .started {
     /* margin-left: 1.8rem; */
-}
+  }
 }
 /* (min-width:43.75rem) and */
-@media   (max-width:1200px) {
-.aboutimg{
-    height: 100vh; 
+@media (max-width: 1000px) {
+  .aboutimg {
+    height: 100vh;
     background-attachment: initial;
     width: 100%;
     overflow-y: hidden;
-}
-#banner-card::before {
+  }
+  #banner-card::before {
     content: "";
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
@@ -143,26 +140,26 @@
     left: 0;
     right: 0;
     z-index: -2;
-}
+  }
 
-.banner-text{
+  .banner-text {
     font-size: 20px;
     left: -15px;
     margin-top: 16vh;
-}
-/* #banner-card::before{
+  }
+  /* #banner-card::before{
     top: 100px;
 } */
-.banner-text h1{
+  .banner-text h1 {
     font-size: 1.87rem;
     width: 100vw;
     padding-left: 10px;
-}
-.banner-text h2{
+  }
+  .banner-text h2 {
     font-size: 18px;
     line-height: 24px;
     color: #eee;
     padding-left: 1.1rem;
     width: 100vw;
-}
+  }
 }

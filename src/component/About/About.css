@@ -1,179 +1,166 @@
-.aboutlink-top{
-    padding-top:40px;
-
+.aboutlink-top {
+  padding-top: 40px;
 }
 .testimonial {
-    padding: 60px 110px;
-    overflow: hidden;
-}
-.testimonial-heading{
-    /* width: 100vw; */
+  padding: 3.75rem 6.87rem;
+  overflow: hidden;
 }
 .testimonial1 {
-    display: flex;
-    gap: 40px;
-    padding-left: 50px;
+  display: flex;
+  gap: 40px;
+  padding-left: 50px;
 }
-.container-freelancer{
-    gap: 40px;
+.container-freelancer {
+  gap: 40px;
 }
 .scroll {
-    display: flex;
-    margin-right: 60px;
+  display: flex;
+  margin-right: 60px;
 }
 .scroll img {
-    width: 90px;
-    border-radius: 10px;
-    border: 6px solid #fff;
-    position: absolute;
-    left: -45px;
+  width: 90px;
+  border-radius: 10px;
+  border: 6px solid #fff;
+  position: absolute;
+  left: -45px;
 }
 .scroll {
-    box-sizing: content-box;
-    padding: 30px 30px 30px 60px;
-    margin: 30px 15px;
-    min-height: 200px;
-    width: 450px;
-    border: 1px solid #eef0ef;
-    position: relative;
-    background: #fff;
-    animation: primary 3s linear infinite;
+  box-sizing: content-box;
+  padding: 30px 30px 30px 60px;
+  margin: 30px 15px;
+  min-height: 200px;
+  width: 28.12rem;
+  border: 1px solid #eef0ef;
+  position: relative;
+  background: #fff;
+  animation: primary 3s linear infinite;
 }
 .scroll h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 10px 0 5px 0;
-    color: #111;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
 }
 .scroll h4 {
-    font-size: 14px;
-    color: #999;
-    margin: 0;
-    font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #999;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
 }
 .scroll p {
-    font-style: italic;
-    margin: 15px auto 15px auto;
+  font-style: italic;
+  margin: 15px auto 15px auto;
 }
 .scroll i {
-    display: inline-block;
-    left: -5px;
-    position: relative;
-    color: #c1ecce;
-    font-size: 26px;
+  display: inline-block;
+  left: -5px;
+  position: relative;
+  color: #c1ecce;
+  font-size: 26px;
 }
 
-
-.container-freelancer{
-    display: flex;
-    height: 100%;
-    width: 400%; 
-    animation: scroll 27s linear infinite;
-
+.container-freelancer {
+  display: flex;
+  height: 100%;
+  width: 400%;
+  animation: scroll 27s linear infinite;
 }
 .scrolling-div {
-    flex: 1;
-    height: 100%;
-    overflow-x: scroll;
-    white-space: nowrap;
-    border: 1px solid #ccc;
-    padding: 20px;
+  flex: 1;
+  height: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  border: 1px solid #ccc;
+  padding: 20px;
 }
 
 /* Style for the static divs */
 .static-div {
-    flex: 1;
-    height: 100%;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    padding: 20px;
+  flex: 1;
+  height: 100%;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
 }
 
 /* Keyframes for the scrolling animation */
 @keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
-
-
-
-
-.main-about{
-    max-width: 1100px;
-    margin: 0 auto;
-    /* padding-top: 120px; */
+.main-about {
+  max-width: 1100px;
+  margin: 0 auto;
+  /* padding-top: 120px; */
 }
-.about{
-    display: flex;
-    overflow: hidden;
-    gap: 14px;
-    width: 100%;
-    padding-top: 3.5rem;
-
-}
-.text{
-    width: 100%;
-}
-.text h1{
-    font-size: 26px;
-    font-weight: 600;
-    font-family: "Raleway", sans-serif;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    line-height: 1.2;
-    color: inherit;
-}
-.text h4{
-    font-weight: 400;
-    font-size: 17px;
-    opacity: 0.7;
-    padding-top: 4px;
-    margin-top: 0;
-    margin-bottom: 4px;
-    font-style: italic;
-}
-.text h4 .about-icon{
-    display: none;
-}
-.image-right{
-    max-width: 600px; 
-    margin: 0 auto;
-   
-}
-.image-right img{
- width: 100%;  
- height:auto; 
- display:block;
-}
-.text-icon{
-    display: grid;
-    grid-template-columns: auto 1fr; 
-    gap: 4px;
-    /* opacity: 0.7; */
-}
-.text p{
-    font-size: 16px;
+.about {
+  display: flex;
+  overflow: hidden;
+  gap: 14px;
+  width: 100%;
+  padding-top: 3.5rem;
 }
 .text {
-    font-size: 16px;
-    opacity: 0.7;
-
+  width: 100%;
 }
-p .about-icon{
- color: #5fcf80;
- display: block;
- border: 1px solid #5fcf80;
- display: inline-flex;
- /* align-items: center; */
- border-radius: 50%;
- padding: 4px;
- margin-right: 8px; 
- font-size: 20px;
+.text h1 {
+  font-size: 26px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  color: inherit;
+}
+.text h4 {
+  font-weight: 400;
+  font-size: 17px;
+  opacity: 0.7;
+  padding-top: 4px;
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-style: italic;
+}
+.text h4 .about-icon {
+  display: none;
+}
+.image-right {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.image-right img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.text-icon {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 4px;
+  /* opacity: 0.7; */
+}
+.text p {
+  font-size: 16px;
+}
+.text {
+  font-size: 16px;
+  opacity: 0.7;
+}
+p .about-icon {
+  color: #5fcf80;
+  display: block;
+  border: 1px solid #5fcf80;
+  display: inline-flex;
+  /* align-items: center; */
+  border-radius: 50%;
+  padding: 4px;
+  margin-right: 8px;
+  font-size: 20px;
 }
 /* About.css */
 /* .fade-enter {
@@ -197,14 +184,14 @@ p .about-icon{
   }
    */
 
-@media only screen and (max-width: 824px){
-    .about{
-        display: flex;
-        flex-direction: column-reverse;
-        padding:  2rem;
-    }
-    .container-freelancer{
-display: grid;
-grid-template-columns: 1fr/1fr;
-    }
+@media only screen and (max-width: 824px) {
+  .about {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 2rem;
+  }
+  .container-freelancer {
+    display: grid;
+    grid-template-columns: 1fr/1fr;
+  }
 }

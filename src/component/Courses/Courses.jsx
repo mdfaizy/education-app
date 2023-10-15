@@ -11,14 +11,6 @@ import './Courses.css'
 const Courses = () => {
     return (
         <div>
-            {/* <div className="events-top-text">
-     <h2>Courses</h2>
-      <p>
-        Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia
-        id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam
-        aperiam consequatur laboriosam nemo harum praesentium.
-      </p>
-     </div> */}
             <div className="fee1" id="Courses">
                 <div className="dot">
                     <div className="span">

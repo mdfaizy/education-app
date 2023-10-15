@@ -1,123 +1,85 @@
 .over-items {
-    display: flex;
-    max-width: 68.75rem;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    margin-top: 2rem;
+  display: flex;
+  max-width: 68.75rem;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 .over-icon {
-    width: 23%;
-    padding: 1rem;
-    position: relative;
-    margin: 10px;
-    overflow: hidden;
-    transition: 0.3s;
-    border: 1px solid #eef0ef;
-    color: #37423b;
-    display: flex;
-    transition: border-color 0.3s, color 0.3s;
+  width: 23%;
+  padding: 1rem;
+  margin: 10px;
+  overflow: hidden;
+  border: 1px solid #eef0ef;
+  color: #37423b;
+  display: flex;
+  transition: border-color 0.3s, color 0.3s;
 }
 .over-icon h2 {
-    font-size: 1.06rem;
-    cursor: pointer;
-    font-weight: 600;
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 4px;
-    align-items: center;
+  font-size: 1.06rem;
+  cursor: pointer;
+  font-weight: 600;
+  gap: 4px;
+  display: flex;
+  align-items: center;
 }
 .icon-1 {
-    color: #ffbb2c;
-    font-size: 1.87rem;
+  color: #ffbb2c;
+  font-size: 1.87rem;
 }
 .icon-2 {
-    color: #5578ff;
-    font-size: 1.87rem;
+  color: #5578ff;
+  font-size: 1.87rem;
 }
 .icon-3 {
-    color: #e80368;
-    font-size: 1.87rem;
+  color: #e80368;
+  font-size: 1.87rem;
 }
 .icon-4 {
-    color: #e361ff;
-    font-size: 1.87rem;
+  color: #e361ff;
+  font-size: 1.87rem;
 }
 .icon-5 {
-    color: #47aeff;
-    font-size: 1.87rem;
+  color: #47aeff;
+  font-size: 1.87rem;
 }
 .icon-6 {
-    color: #4233ff;
-    font-size: 1.87rem;
+  color: #4233ff;
+  font-size: 1.87rem;
 }
 .icon-7 {
-    color: #11dbcf;
-    font-size: 1.87rem;
+  color: #11dbcf;
+  font-size: 1.87rem;
 }
 .icon-8 {
-    color: #4233ff;
-    font-size: 1.87rem;
+  color: #4233ff;
+  font-size: 1.87rem;
 }
 .icon-9 {
-    color: #b2904f;
-    font-size: 1.87rem;
+  color: #b2904f;
+  font-size: 1.87rem;
 }
 .icon-10 {
-    color: #b20969;
-    font-size: 1.87rem;
+  color: #b20969;
+  font-size: 1.87rem;
 }
 .icon-11 {
-    color: #ff5828;
-    font-size: 1.87rem;
+  color: #ff5828;
+  font-size: 1.87rem;
 }
 .icon-12 {
-    color: #29cc61;
-    font-size: 1.87rem;
+  color: #29cc61;
+  font-size: 1.87rem;
 }
 .over-icon:hover {
-    border-color: #29cc61;
-    color: #29cc61;
+  border-color: #29cc61;
+  color: #29cc61;
 }
-@media (max-width:660px) {
-    .main-over {
-        margin: auto;
-        padding: 0;
-        padding: 0 40px;
-    }
-    .over-items {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr);
-    }
-
-    .over-icon {
-        width: 100%;
-        transition: 0.3s;
-        border: 1px solid #eef0ef;
-        color: #37423b;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    .main-over {
-        margin: auto;
-        padding: 0;
-        padding: 0 40px;
-    }
-
-    .over-items {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr);
-    }
-    .over-icon {
-        width: 100%;
-        transition: 0.3s;
-        border: 1px solid #eef0ef;
-        color: #37423b;
-        justify-content: flex-start;
-    }
-    .over-icon h2 {
-        display: grid;
-        grid-template-columns: auto 1fr;
-        gap: 4px;
-    }
+@media only screen and (max-width: 1000px) {
+  .main-over {
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+  .over-icon {
+    width: 100%;
+  }
 }
