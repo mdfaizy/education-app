@@ -17,9 +17,10 @@
 
 .event_img {
   border: 0;
-  padding: 0 30px;
+  padding:0 30px;
   margin-bottom: 60px;
   width: 30rem;
+  margin-right: 40px;
 }
 .event_img1 img {
   width: calc(100%);
@@ -27,6 +28,7 @@
   z-index: 9;
   border-radius: 0;
   height: auto;
+ padding-left:5rem;
   transition: transform 0.3s ease;
 }
 .event_img2 {
@@ -38,6 +40,7 @@
   margin-top: -60px;
   transition: 0.3s;
   width: 70vh;
+  flex-wrap: wrap;
   height: auto;
   transform: scale(1.1);
   margin-left: 50px;

@@ -128,6 +128,7 @@
   color: #657a6d;
   font-weight: 400;
 }
+
 @media only screen and (max-width: 990px) {
   .fee {
     margin: 20px;
