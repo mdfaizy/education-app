@@ -1,5 +1,6 @@
 .aboutlink-top {
   padding-top: 40px;
+
 }
 .testimonial {
   padding: 3.75rem 6.87rem;
@@ -12,6 +13,7 @@
 }
 .container-freelancer {
   gap: 40px;
+margin-left: 100px;
 }
 .scroll {
   display: flex;
@@ -81,15 +83,7 @@
   border: 1px solid #ccc;
   padding: 20px;
 }
-/* Keyframes for the scrolling animation */
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
+
 @media only screen and (max-width: 824px) {
   .about {
     display: flex;
