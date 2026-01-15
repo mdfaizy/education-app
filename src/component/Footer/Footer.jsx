@@ -9,8 +9,8 @@ const Footer
                 <footer>
                     <div className="footer1">
                         <div className="footer2">
-                            <h2>© Copyright<b> Mentor.</b> <span>All Rights Reserved</span></h2>
-                            <p>Designed by <span>BootstrapMade</span></p>
+                            <h2>© Copyright<b> Edu.</b> <span>All Rights Reserved</span></h2>
+                            <p>Designed by <span>Gm Faizy</span></p>
                         </div>
                         <div className="footer3">
                             <ul>

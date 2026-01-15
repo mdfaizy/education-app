@@ -2,12 +2,19 @@
   overflow-x: hidden;
 }
 
+.loader-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;      /* vertical center */
+  justify-content: center;  /* horizontal center */
+}
 .lds-dual-ring {
     display: inline-block;
     width: 80px;
     height: 80px;
- align-items: center;
- justify-content: center;
+ /* align-items: center;
+ justify-content: center; */
   }
   .lds-dual-ring:after {
     content: " ";

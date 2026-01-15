@@ -11,13 +11,14 @@ const Contacts = () => {
                         <div className="a108">
                             <div className="Adam">
                                 <div className='metor'>
-                                    <h1 className='h1text'>Mentor
+                                    <h1 className='h1text'>Educator
                                     </h1>
                                     <p>
-                                        A108 Adam Street <br></br>
-                                        New York,  NY 535022<br></br>
-                                        United States <br></br>
-                                        <strong>Phone:</strong> +1 5589 55488 55<br></br>
+                                        {/* A108 Adam Street */}
+                                         Okhla vihar<br></br>
+                                        New Delhi ,110025<br></br>
+                                        India <br></br>
+                                        <strong>Phone:</strong> +91 7319987422<br></br>
                                         <strong>Email:</strong> gmfaizy2002@gmail.com<br></br>
                                     </p>
                                 </div>

@@ -22,7 +22,7 @@ body {
   z-index: 20;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-.nav-container {
+/* .nav-container {
   max-width: 68rem;
   margin: 0 auto;
   display: flex;
@@ -30,7 +30,41 @@ body {
   align-items: center;
   position: relative;
   padding: 0.5rem;
+  
 }
+   */
+
+   .nav-container {
+
+    max-width: 68rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  display: flex;
+   position: relative;
+  align-items: center;
+}
+
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo-img {
+  width: 90px;       /* 🔥 yahi main fix */
+  height: 80px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-logo-img {
+    width: 70px;
+  }
+}
+
+
 .nav-details {
   display: flex;
   justify-content: space-between;

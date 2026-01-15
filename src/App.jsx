@@ -13,6 +13,7 @@ import { useEffect, useState } from "react";
 import Loader from "./component/Loader";
 import Contact1 from "./component/Contact1/Contact1";
 import './index.css'
+
 const App = () => {
   const [loader,setLoder]=useState('true')
   // useEffect(()=>{
